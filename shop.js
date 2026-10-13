@@ -1,0 +1,2 @@
+const items = ["shirt", "pants", "socks", "underwear", "wallet", "backpack", "purse", "fanny pack", "sunglasses", "watch", "bracelet", "necklace", "beanie", "earmuffs", "scarf", "gloves", "sneakers", "crocs", "boots", "sandals"]
+console.log(items[19])

@@ -1,7 +1,35 @@
-const items = {
-    clothing:"shirt", "pants" : "socks", "underwear": 
-    storage:"wallet", "backpack", "purse", "fanny pack",
-    accessories: "sunglasses", "watch", "bracelet", "necklace", 
-    winter:"beanie", "earmuffs", "scarf", "gloves",
-    footwear: "sneakers", "crocs", "boots", "sandals"}
-console.log(items[19])
+const items = [
+    {
+        item: "shirt",
+        category: "clothing"
+    },
+    {
+        item: "pants",
+        category: "clothing" 
+    },
+    {
+        item: "socks",
+        category: "clothing" 
+    },
+    {
+        item: "underwear",
+        category: "clothing" 
+    },
+    
+    {
+        item: "socks",
+        category: "clothing" 
+    },
+    {
+        item: "socks",
+        category: "clothing" 
+    },
+    {
+        item: "socks",
+        category: "clothing" 
+    },
+
+
+
+    , "pants", "underwear", "wallet", "backpack", "purse", "fanny pack", "sunglasses", "watch", "bracelet", "necklace", "beanie", "earmuffs", "scarf", "gloves","sneakers", "crocs", "boots", "sandals" ] 
+console.log(items[0].category)

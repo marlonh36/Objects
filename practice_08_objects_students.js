@@ -17,6 +17,8 @@ const students = [
   { name: "Dakota", grade: 10, gpa: 3.9, isHonors: true },
 ];
 
+console.log(students[2].isHonors)
+
 // =================================================================
 // PROBLEM 1 — Reading Object Properties
 // =================================================================
@@ -26,8 +28,8 @@ const students = [
 //   3. Print true/false: is the runtime over 120 minutes?
 //   4. Add a new property `watched` set to true
 //   5. Print each key-value pair using console.log("Title:", movie.title) style
-
-/* const movie = {
+/* 
+const movie = {
   title: "Interstellar",
   year: 2014,
   director: "Christopher Nolan",
@@ -70,7 +72,7 @@ console.log(movie.watched)
 // console.log("Runtime:", ...)
 // console.log("Watched:", ...)
 
-console.log(movie) */
+console.log(movie)  */
 
 // =================================================================
 // PROBLEM 2 — Build Your Own Object

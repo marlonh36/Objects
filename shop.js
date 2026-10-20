@@ -102,22 +102,35 @@ const items = [
 ]
 
 const cart = []
+const price = []
 
 function addcart(item) {
 cart.push(item.item)
+price.push(item.price)
 }
 
-function removecart(item) {
+/* function removecart(item) {
 cart.pop(item.item)
-}
+} */
 
+const timesrun = price.length
+let total = 0
 function totalprice() {
-    
+for(let i = 1; i<price.length; i++) {
+console.log(i)
+    }
 }
-
+totalprice()
 /* 
 console.log(items[7].item) */
 addcart(items[5])
 addcart(items[3])
-removecart(items[3])
+addcart(items[2])
+addcart(items[1])
+/* removecart(items[3]) */
+
+
+
 console.log(cart)
+console.log(total)
+console.log(timesrun)

@@ -2,67 +2,67 @@ const items = [
     {
         item: "shirt",
         category: "clothing",
-        price: 12
+        price: 10
     },
     {
         item: "pants",
         category: "clothing",
-        price: 12
+        price: 20
     },
     {
         item: "socks",
         category: "clothing",
-        price: 12 
+        price: 5 
     },
     {
         item: "underwear",
         category: "clothing",
-        price: 12 
+        price: 5 
     },
     {
         item: "wallet",
         category: "storage",
-        price: 12 
+        price: 7 
     },
     {
         item: "backback",
         category: "storage",
-        price: 12 
+        price: 30
     },
     {
         item: "purse",
         category: "storage",
-        price: 12 
+        price: 50
     },
     {
         item: "fanny pack",
         category: "storage",
-        price: 12 
+        price: 30 
     },
     {
         item: "sunglasses",
         category: "accessories",
-        price: 12 
+        price: 100 
     },
     {
         item: "watch",
         category: "accessories",
-        price: 12 
+        price: 500
     },
     {
         item: "bracelet",
         category: "accessories",
-        price: 12 
+        price: 1000
     },
     {
         item: "necklace",
         category: "accessories",
-        price: 12 
+        price: 2000 
     },
     {
         item: "beanie",
         category: "winter",
-        price: 12 
+        price: 6 
     },
     {
         item: "earmuffs",
@@ -72,65 +72,62 @@ const items = [
     {
         item: "scarf",
         category: "winter",
-        price: 12 
+        price: 6 
     },
     {
         item: "gloves",
         category: "winter",
-        price: 12 
+        price: 6
     },
     {
         item: "sneakers",
         category: "footwear",
-        price: 12 
+        price: 80 
     },
     {
         item: "crocs",
         category: "footwear",
-        price: 12 
+        price: 60 
     },
     {
         item: "boots",
         category: "footwear",
-        price: 12 
+        price: 150 
     },
     {
         item: "sandals",
         category: "footwear",
-        price: 12 
+        price: 25 
     },
 ]
 
 const cart = []
-const price = []
 
 function addcart(item) {
-cart.push(item.item)
-price.push(item.price)
+cart.push(item)
 }
 
 /* function removecart(item) {
 cart.pop(item.item)
 } */
 
-const timesrun = price.length
-let total = 0
-function totalprice() {
-for(let i = 1; i<price.length; i++) {
-console.log(i)
+let totalprice = 0
+function addtotalprice() {
+for(let i = 0; i<cart.length; i++) {
+    totalprice = totalprice+cart[i].price
     }
 }
-totalprice()
 /* 
 console.log(items[7].item) */
 addcart(items[5])
 addcart(items[3])
 addcart(items[2])
 addcart(items[1])
+addcart(items[6])
+addtotalprice()
 /* removecart(items[3]) */
 
 
 
 console.log(cart)
-console.log(total)
-console.log(timesrun)
+console.log(totalprice)

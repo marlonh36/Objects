@@ -8,12 +8,17 @@ body,
 *{
     font-size: 10px;
     box-sizing: border-box;
-    margin:0;
-    padding: 0;
+    margin:5px;
+    padding:10px;
+  font-family: "Bitcount Single", system-ui;
+  font-optical-sizing: auto;
+
 }
+
 
 body{
     background-color: #121212;
+    
 }
 div {
     height:55rem;
@@ -34,14 +39,15 @@ div {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color:#0cbd82
+    color:#10f3a7;
 }
 .hero-content {
     width: 70rem;
-    padding: 2 rem;
+    padding: 2rem;
+    color:#0a0a0a;
 }
 .hero h1{
-    font-size: 7rem;
+    font-size: 5rem;
     margin-bottom: 2rem;
     text-shadow: 0 2px 8px rgba(0,0,0,0.4)
 }

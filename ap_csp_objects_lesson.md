@@ -42,7 +42,7 @@ let gpa3 = 3.9;
 
 ```js
 const student = {
-  name: "Jane",
+  name: "Jane", "asd"
   grade: 11,
   gpa: 3.8,
   isHonors: true

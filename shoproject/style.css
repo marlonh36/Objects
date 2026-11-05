@@ -12,6 +12,14 @@ body,
     padding: 0;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5%;
+}
+
 body{
     background-color: #121212;
 }
@@ -82,9 +90,9 @@ text-shadow: 0 2px 6px rgba(0,0,0,0.4)
     object-fit: cover;
 
 }
-.card-price{
+/* .card-price{ */
 
-}
+
 .card-btn {
     height: 4rem;
     padding: 0 1.6rem;
@@ -101,4 +109,11 @@ text-shadow: 0 2px 6px rgba(0,0,0,0.4)
 .card-btn:hover{
 background-color: rgb(145, 0, 0);
 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5%;
 }

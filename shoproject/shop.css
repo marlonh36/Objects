@@ -1,9 +1,9 @@
 
 .hero{
-    display: flex;
+    display: center; 
     justify-content: center;
     align-items:center;
-    text-align: center;
+    text-align: center;  
     background-image: linear-gradient(rgba(226, 32, 7, 0.6), rgb(252, 10, 10)) url("img/brown-sneaker.avif");
     height: 100vh;
     background-size: cover;

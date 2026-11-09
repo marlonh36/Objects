@@ -37,8 +37,9 @@ div {
     justify-content: center;
     align-items:center;
     text-align: center;
-    background-image: url("ski-mask-spongebob-meme.png");
-    background-color: rgba(0, 240, 172, 0.9);
+    background-color: rgba(240, 0, 0, 1);
+    background-image: url("sponge.jpg");
+    background-image: linear-gradient(rgba(2, 233, 214, 0.7), rgba(0, 0, 0, 0.7)), url("sponge.jpg");
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -55,7 +56,8 @@ div {
     font-size: 20rem;
     margin-bottom: 2rem;
     text-shadow: 0 2px 8px rgba(0,0,0,0.4);
-    text-align: center
+    text-align: center;
+    color: #fafafa
 }
 .hero p{
 font-size: 2.4rem;

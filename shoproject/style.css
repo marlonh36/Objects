@@ -37,8 +37,6 @@ div {
     justify-content: center;
     align-items:center;
     text-align: center;
-    background-color: rgba(240, 0, 0, 1);
-    background-image: url("sponge.jpg");
     background-image: linear-gradient(rgba(2, 233, 214, 0.7), rgba(0, 0, 0, 0.7)), url("sponge.jpg");
     height: 60vh;
     background-size: cover;
@@ -75,7 +73,7 @@ text-shadow: 0 2px 6px rgba(0,0,0,0.4);
     border-radius: 5rem;
 }
 .card{
-    background-color: #ff0000;
+    background-color: #9cfff2;
     border-radius: 0.8rem;
     display:flex;
     flex-direction: column;
@@ -87,6 +85,7 @@ text-shadow: 0 2px 6px rgba(0,0,0,0.4);
     font-size: 1.8rem;
     font-weight: 600;
     text-align: center;
+    color:#000000
 }
 #test {
     background-color:#00ff00
@@ -99,14 +98,17 @@ text-shadow: 0 2px 6px rgba(0,0,0,0.4);
 }
 /* .card-price{ */
 
+.card p {
+    color:#000000
+}
 
 .card-btn {
     height: 4rem;
     padding: 0 1.6rem;
-    background-color: rgb(1, 141, 94);
+    background-color: #5bffe9;
     color: #000000;
-    border: 1px solid #eb0000;
-    border-radius: 0.4rem;
+    border: 3px solid #006c70;
+    border-radius: 0.8rem;
     font-size: 1.4rem;
     font-weight: 600px;
     cursor: pointer;
@@ -114,7 +116,7 @@ text-shadow: 0 2px 6px rgba(0,0,0,0.4);
 
 }
 .card-btn:hover{
-background-color: rgb(145, 0, 0);
+background-color: #00d8bb;
 
 }
 .container {

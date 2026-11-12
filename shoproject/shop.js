@@ -25,7 +25,7 @@ const items = [
         price: 7 
     },
     {
-        item: "backback",
+        item: "backpack",
         category: "storage",
         price: 30
     },
@@ -101,6 +101,18 @@ const items = [
     },
 ]
 
+function inject(item) {
+  const container = document.querySelector(".container");
+  container.insertAdjacentHTML(
+    "beforeend",
+    `<div class="card">
+        <h2 class="card-header">${item.item}</h2>
+        <img src="${item.item}.png" alt="" />
+        <p>${item.price}</p>
+      </div> `,
+  );
+}
+
 const cart = []
 
 function addcart(item) {
@@ -127,7 +139,9 @@ addcart(items[6])
 addtotalprice()
 /* removecart(items[3]) */
 
-
+for(let i = 0; i<=20; i++){
+inject(items[i])
+}
 
 console.log(cart)
 console.log(totalprice)
